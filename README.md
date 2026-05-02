@@ -35,10 +35,9 @@ Russcord подойдёт если вы
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f33b8cfe-cbb7-46d6-9359-74cf5e27e9bc" width="45%" />
-  <img src="https://github.com/user-attachments/assets/9c4a223a-5fe2-4488-acda-7c9fbac0c75a" width="45%" />
-</p>
+ <img src="https://github.com/user-attachments/assets/9c4a223a-5fe2-4488-acda-7c9fbac0c75a" width="45%" />
+---https://github.com/user-attachments/assets/1631d098-586f-429c-b565-9bc262aa4a12
 
----
 
 ## 📥 Установка
 
