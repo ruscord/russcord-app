@@ -62,6 +62,8 @@ Russcord подойдёт если вы
 
 🐧 Linux  
 Проверьте права на запуск файла
+https://github.com/dvytvs/Ruscord-linux-version/releases/ 
+Релизы под Linux x86
 
 ---
 
