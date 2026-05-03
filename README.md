@@ -32,9 +32,11 @@ Russcord подойдёт если вы
 ---
 
 ## 📸 Интерфейс
-<img width="1235" height="787" alt="image" src="https://github.com/user-attachments/assets/547a02fb-ceea-467f-8134-4d20c5df2916" />
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/547a02fb-ceea-467f-8134-4d20c5df2916" width="48%" style="border-radius:16px; display:inline-block;" />
+  <img src="https://github.com/user-attachments/assets/f6af4307-a541-4093-81d2-3aea7114e9af" width="48%" style="border-radius:16px; display:inline-block;" />
+</p>
 
 ## 📥 Установка
 
