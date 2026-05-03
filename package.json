@@ -1,0 +1,14 @@
+{
+  "name": "electonruscord",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Монорепо: основное приложение в russcord-app/",
+  "scripts": {
+    "start": "cd russcord-app && npm run start",
+    "dist": "cd russcord-app && npm run dist",
+    "build": "cd russcord-app && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

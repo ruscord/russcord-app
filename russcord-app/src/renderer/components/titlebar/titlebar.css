@@ -1,0 +1,88 @@
+.titlebar {
+  display: flex;
+  align-items: stretch;
+  height: 36px;
+  background: #0f0f0f;
+  border-bottom: 1px solid #1e1f22;
+  color: #dbdee1;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+/** Окно без фокуса (как неактивная вкладка в браузере) */
+.titlebar.titlebar--inactive {
+  background: #252628;
+  color: #949ba4;
+  border-bottom-color: #1b1c1f;
+}
+
+.titlebar.titlebar--inactive .titlebar-logo {
+  opacity: 0.72;
+}
+
+.titlebar-drag {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 12px;
+  -webkit-app-region: drag;
+  app-region: drag;
+}
+
+.titlebar-logo {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+.titlebar-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.titlebar-controls {
+  display: flex;
+  -webkit-app-region: no-drag;
+  app-region: no-drag;
+}
+
+.titlebar-btn {
+  width: 46px;
+  border: none;
+  background: transparent;
+  color: #dbdee1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.titlebar-btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.titlebar--inactive .titlebar-btn:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.titlebar-btn-close:hover {
+  background: #e81123;
+  color: #fff;
+}
+
+.titlebar--inactive .titlebar-btn-close:hover {
+  background: #c42b2e;
+  color: #fff;
+}
+
+.titlebar-symbol {
+  flex-shrink: 0;
+  pointer-events: none;
+  display: block;
+}
